@@ -1,0 +1,17 @@
+.splashScreen {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    background-color: rgb(255, 255, 255);
+
+    img {
+        height: 170px;
+        max-width: 100%;
+    }
+}
